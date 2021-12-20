@@ -21,7 +21,6 @@ jumphost_ram_mb       = "2048"
 jumphost_ip           = "10.150.1.200"
 jumphost_subnet       = "24"
 jumphost_gateway      = "10.150.1.1"
-dns_server_list       = "10.180.0.2,10.180.0.5"
-dns_suffix_list       = "datarecover.cloud"
-
+dns_server_list       = [ "10.180.0.2,10.180.0.5" ]
+dns_suffix_list       = [ "datarecover.cloud" ]
 

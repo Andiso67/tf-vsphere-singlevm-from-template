@@ -1,11 +1,11 @@
 # vcenter credentials
 vsphere_user       = "Administrator@tanzu.vsphere.local"
 vsphere_password   = "Rec0Mudez16@"
-vsphere_server     = "vcsatanzu.datarecover.cloud"
+vsphere_server     = "10.150.1.128"
 vsphere_datacenter = "Datacenter-PQ"
-vsphere_datasource = "NetappFAS_NFS"
+vsphere_datasource = "VirtualMachinesVMwareLAB"
 vsphere_cluster    = "Cluster-DR" # leave empty if no vcenter cluster
-vsphere_network    = "admin141"
+vsphere_network    = "DPortGroup-Servicios"
 
 # name of template
 vsphere_template = "TemplateUbuntuk8s"
@@ -13,9 +13,9 @@ vsphere_template = "TemplateUbuntuk8s"
 jumphost_user     = "datarecover"
 jumphost_password = "Rec0Mudez16@"
 
-jumphost_name      = "VirtualMachine-Terradorm"
-jumphost_vm_folder = "" # empty for root location
-jumphost_domain    = "home.lab"
+jumphost_name      = "VirtualMachine-Terraform"
+jumphost_vm_folder = "Andres_NO_BORRAR" # empty for root location
+jumphost_domain    = "datarecover.cloud"
 jumphost_cpu       = "2"
 jumphost_ram_mb    = "2048"
 jumphost_ip        = "10.150.1.210"

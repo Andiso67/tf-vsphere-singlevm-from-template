@@ -1,5 +1,4 @@
 # vcenter credentials
-<<<<<<< HEAD
 vsphere_user       = "Administrator@tanzu.vsphere.local"
 vsphere_password   = "Rec0Mudez16@"
 vsphere_server     = "10.150.1.128"
@@ -13,7 +12,6 @@ vsphere_template = "TemplateUbuntuk8s"
 # OS template credentials
 jumphost_user     = "datarecover"
 jumphost_password = "Rec0Mudez16@"
-=======
 vsphere_user          = "administrator@tanzu.vsphere.local"
 vsphere_password      = "Rec0Mudez16@"
 vsphere_server        = "vcsatanzu.datarecover.cloud"
